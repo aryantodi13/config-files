@@ -1,0 +1,5 @@
+#backupFolder conf
+new -s "bkf" -c ~/backupFolder;
+neww -c ~/backupFolder -n habits nvim habits.txt;
+neww -c ~/backupFolder nvim todo.txt;
+#split-window -h nvim todo.txt;

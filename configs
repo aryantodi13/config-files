@@ -1,0 +1,5 @@
+#kske conf
+new -s "configs" -c ~/.config;
+neww -c ~/.config/tmux nvim .;
+neww -c ~/.config/nvim nvim .; 
+#split-window -v "nvim ."

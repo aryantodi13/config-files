@@ -1,0 +1,5 @@
+#kske conf
+new -s "kske" -c ~/kske;
+neww -c ~/kske nvim .;
+split-window -h nvim todo.txt;
+#split-window -v "nvim ."
