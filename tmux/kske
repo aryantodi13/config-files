@@ -1,5 +1,11 @@
 #kske conf
-new -s "kske" -c ~/kske;
-neww -c ~/kske nvim .;
-split-window -h nvim todo.txt;
+new -s "kske" -c ~/kske nvim work_done.txt;
+split-window -h nvim agenda.txt;
+resize-pane -L 30;
+split-window -v nvim todo.txt;
+select-pane -U;
+split-window -h nvim calendar.txt;
+rename-window "work";
+neww -c ~/kske;
+split-window -h nvim .;
 #split-window -v "nvim ."
